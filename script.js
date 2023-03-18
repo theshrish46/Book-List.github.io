@@ -123,7 +123,7 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
         
         
         UserInterface.showAlert('Successfully Added', 'success')
-        
+        UserInterface.DisplayBooks()
         
         UserInterface.removeList()
     }
